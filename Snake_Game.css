@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap');
+#name{
+    color: rgb(219, 54, 54);
+    border: 2px solid rgb(56, 5, 241);
+    border-radius: 8px;
+    background-color: blanchedalmond;
+    
+    width: 115%;
+    height: 80px;
+    text-align:center ;
+    text-decoration:dashed;
+    font-weight: 800;
+    font-family: cursive;  
+    overflow: auto;
+}
+
+#name{
+    color: rgb(211, 129, 21);
+    font: 500 cursive;
+    font-weight: 600;
+    display:flex ;
+    justify-content: center;
+}
+.score{
+    color: rgb(211, 129, 21);
+    font: 500 cursive;
+    font-weight: 600;
+    display:flex ;
+    justify-content: center;
+
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+.backgroundPic{
+    background: url("snake pic.jpg");
+    min-height: 100vh;
+    background-size: 100vw 100vh;
+   
+}
+
+#board{
+    background: linear-gradient(rgb(182, 182, 235), rgb(241, 166, 213));
+    width:100vmin;
+    height: 100vmin;
+    border: 2px solid black;
+    display: grid;
+    grid-template-rows: repeat(25, 1fr);
+    grid-template-columns: repeat(25, 1fr);
+}
+
+.head{
+    background-color: red;
+    border: 2px solid green;
+    border-radius: 14px;
+}
+
+.snake{
+    background-color: maroon;
+    border: 10px solid palevioletred;
+    border-radius: 15px;
+}
+.food{
+    background-color: purple;
+    border: 2px solid green;
+    border-radius: 12px;
+}
+
+#scoreBox{
+  
+    font-weight: bold;
+    font-family: cursive;
+}
+
+#hiscoreBox{ 
+    font-weight: bold;
+    font-family: cursive;
+}
